@@ -13,6 +13,7 @@
 		615FEB5725A628D200541D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615FEB5525A628D200541D34 /* Main.storyboard */; };
 		615FEB5925A628D300541D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615FEB5825A628D300541D34 /* Assets.xcassets */; };
 		615FEB5C25A628D300541D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615FEB5A25A628D300541D34 /* LaunchScreen.storyboard */; };
+		615FEB6C25A6295C00541D34 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB6B25A6295C00541D34 /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		615FEB5825A628D300541D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615FEB5B25A628D300541D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615FEB5D25A628D300541D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615FEB6B25A6295C00541D34 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		615FEB4E25A628D200541D34 /* IGFirestoreTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				615FEB6A25A6292500541D34 /* Model */,
+				615FEB6925A6292300541D34 /* View */,
+				615FEB6825A6291F00541D34 /* ViewModel */,
+				615FEB6725A6291B00541D34 /* ViewController */,
+				615FEB6625A6291700541D34 /* API */,
+				615FEB6425A6290900541D34 /* Utils */,
 				615FEB4F25A628D200541D34 /* AppDelegate.swift */,
 				615FEB5125A628D200541D34 /* SceneDelegate.swift */,
 				615FEB5325A628D200541D34 /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				615FEB5D25A628D300541D34 /* Info.plist */,
 			);
 			path = IGFirestoreTutorial;
+			sourceTree = "<group>";
+		};
+		615FEB6425A6290900541D34 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		615FEB6625A6291700541D34 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		615FEB6725A6291B00541D34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				615FEB6B25A6295C00541D34 /* MainTabViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		615FEB6825A6291F00541D34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		615FEB6925A6292300541D34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		615FEB6A25A6292500541D34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				615FEB5425A628D200541D34 /* ViewController.swift in Sources */,
+				615FEB6C25A6295C00541D34 /* MainTabViewController.swift in Sources */,
 				615FEB5025A628D200541D34 /* AppDelegate.swift in Sources */,
 				615FEB5225A628D200541D34 /* SceneDelegate.swift in Sources */,
 			);
