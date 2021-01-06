@@ -14,6 +14,11 @@
 		615FEB5925A628D300541D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615FEB5825A628D300541D34 /* Assets.xcassets */; };
 		615FEB5C25A628D300541D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615FEB5A25A628D300541D34 /* LaunchScreen.storyboard */; };
 		615FEB6C25A6295C00541D34 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB6B25A6295C00541D34 /* MainTabViewController.swift */; };
+		615FEB7025A62A8B00541D34 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB6F25A62A8B00541D34 /* FeedViewController.swift */; };
+		615FEB7325A62AA900541D34 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB7225A62AA900541D34 /* SearchViewController.swift */; };
+		615FEB7625A62AC000541D34 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB7525A62AC000541D34 /* CreatePostViewController.swift */; };
+		615FEB7925A62ACF00541D34 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB7825A62ACF00541D34 /* NotificationViewController.swift */; };
+		615FEB7C25A62AD900541D34 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB7B25A62AD900541D34 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		615FEB5B25A628D300541D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615FEB5D25A628D300541D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615FEB6B25A6295C00541D34 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		615FEB6F25A62A8B00541D34 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		615FEB7225A62AA900541D34 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		615FEB7525A62AC000541D34 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		615FEB7825A62ACF00541D34 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		615FEB7B25A62AD900541D34 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				615FEB6B25A6295C00541D34 /* MainTabViewController.swift */,
+				615FEB6F25A62A8B00541D34 /* FeedViewController.swift */,
+				615FEB7225A62AA900541D34 /* SearchViewController.swift */,
+				615FEB7525A62AC000541D34 /* CreatePostViewController.swift */,
+				615FEB7825A62ACF00541D34 /* NotificationViewController.swift */,
+				615FEB7B25A62AD900541D34 /* ProfileViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,8 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615FEB7325A62AA900541D34 /* SearchViewController.swift in Sources */,
+				615FEB7625A62AC000541D34 /* CreatePostViewController.swift in Sources */,
+				615FEB7925A62ACF00541D34 /* NotificationViewController.swift in Sources */,
 				615FEB5425A628D200541D34 /* ViewController.swift in Sources */,
 				615FEB6C25A6295C00541D34 /* MainTabViewController.swift in Sources */,
+				615FEB7025A62A8B00541D34 /* FeedViewController.swift in Sources */,
+				615FEB7C25A62AD900541D34 /* ProfileViewController.swift in Sources */,
 				615FEB5025A628D200541D34 /* AppDelegate.swift in Sources */,
 				615FEB5225A628D200541D34 /* SceneDelegate.swift in Sources */,
 			);
