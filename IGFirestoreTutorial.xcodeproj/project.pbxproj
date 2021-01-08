@@ -21,6 +21,8 @@
 		615FEB7C25A62AD900541D34 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEB7B25A62AD900541D34 /* ProfileViewController.swift */; };
 		615FEBB025A7724300541D34 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEBAF25A7724300541D34 /* FeedCell.swift */; };
 		615FEBB325A7731100541D34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FEBB225A7731100541D34 /* Extensions.swift */; };
+		615FECCB25A8A49600541D34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FECCA25A8A49600541D34 /* LoginViewController.swift */; };
+		615FECCF25A8A4A300541D34 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FECCE25A8A4A300541D34 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		615FEB7B25A62AD900541D34 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		615FEBAF25A7724300541D34 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		615FEBB225A7731100541D34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		615FECCA25A8A49600541D34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		615FECCE25A8A4A300541D34 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		615FEB6725A6291B00541D34 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				615FECC925A8A46F00541D34 /* Authentication */,
 				615FEB6B25A6295C00541D34 /* MainTabViewController.swift */,
 				615FEB6F25A62A8B00541D34 /* FeedViewController.swift */,
 				615FEB7225A62AA900541D34 /* SearchViewController.swift */,
@@ -137,6 +142,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		615FECC925A8A46F00541D34 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				615FECCA25A8A49600541D34 /* LoginViewController.swift */,
+				615FECCE25A8A4A300541D34 /* RegistrationViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615FECCB25A8A49600541D34 /* LoginViewController.swift in Sources */,
 				615FEB7325A62AA900541D34 /* SearchViewController.swift in Sources */,
 				615FEBB025A7724300541D34 /* FeedCell.swift in Sources */,
 				615FEB7625A62AC000541D34 /* CreatePostViewController.swift in Sources */,
+				615FECCF25A8A4A300541D34 /* RegistrationViewController.swift in Sources */,
 				615FEB7925A62ACF00541D34 /* NotificationViewController.swift in Sources */,
 				615FEB5425A628D200541D34 /* ViewController.swift in Sources */,
 				615FEB6C25A6295C00541D34 /* MainTabViewController.swift in Sources */,
@@ -369,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KQ925N3K3;
 				INFOPLIST_FILE = IGFirestoreTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KQ925N3K3;
 				INFOPLIST_FILE = IGFirestoreTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
